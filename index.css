@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+.header {
+    background-attachment: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
+    top: 0;
+}
+.nav {
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+[href] {
+    color: seashell;
+    padding-left: 20px;
+}
+.logo {
+    padding: 0px;
+    display: inline-block;
+}
+img[src*=tea-cozy-logo] {
+    height: 75%;
+    width: 75%;
+}
+.background {
+    text-align: center;
+}
+.mission {
+    position: absolute;
+    bottom: 220px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.steeping {
+    height: 200px;
+    width: 300px;
+}
+figcaption {
+    text-align: center;
+}
+.location {
+    background-image: url(img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 0 40px;
+    background-position: center;
+}
+.location-box {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 0 40px;
+    text-align: center;
+    line-height: 2;
+    opacity: 1;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-header {
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+.tea {
+    text-align: center;
+    height: 200px;
+}
+.tea h2 {
+    margin: 10px auto 40px;
+}
+#copy {
+    text-align: left;
+    margin: auto 20px;
+}
+.blank {
+    width: 100%;
+    height: 69px;
+}
